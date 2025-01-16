@@ -12,7 +12,7 @@ const ContactForm = () => {
     const [text, setText] = useState("");
 
  
-    const onSubmit = () => {
+    const onSubmit = () => { 
         event.preventDefault();
         setEmail(event.target[1].value);
         setName(event.target[0].value);
